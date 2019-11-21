@@ -9,8 +9,8 @@ class LibpqxxRecipe(ConanFile):
     version = "6.4.5"
     settings = "os", "compiler", "build_type", "arch"
     description = "The official C++ client API for PostgreSQL"
-    url = "https://github.com/bincrafters/conan-libpqxx"
-    homepage = "https://github.com/jtv/libpqxx"
+    url = "https://github.com/Roboauto/conan-libpqxx"
+    homepage = "https://github.com/Roboauto/libpqxx"
     license = "BSD-3-Clause"
     topics = ("conan", "libpqxx", "postgres", "postgresql", "data-base")
     generators = "cmake"
